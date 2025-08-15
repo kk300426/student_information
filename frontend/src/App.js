@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Student />} />
           <Route path="/create" element={<CreateStudent />} />
-          <Route path="/update/:id" element={<UpdateStudent />} />
+          <Route path="/Update/:id" element={<UpdateStudent />} />
         </Routes>
       </BrowserRouter>
     </div>
